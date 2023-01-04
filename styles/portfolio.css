@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.primary-color {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 18px 35px;
+}
+/* Header Style */
+header{
+    background: #FFF8F3;
+}
+/* Navigation Style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 120px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+/* Banner Styles */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0px 120px;
+}
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.banner-para{
+    margin-bottom: 30px;
+}
