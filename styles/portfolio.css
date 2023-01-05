@@ -10,20 +10,34 @@
 .btn-primary {
   color: #ffffff;
   background: #fd6e0a;
-  border: 0;
+  border: 2px solid #fd6e0a;
   font-size: 20px;
   border-radius: 5px;
   padding: 18px 35px;
 }
-/* Header Style */
-header{
-    background: #FFF8F3;
+
+.btn-secondary {
+  color: #fd6e0a;
+  background: #fff8f3;
+  border: 2px solid #fd6e0a;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 18px 35px;
+  margin-left: 20px;
 }
+/* Header Style */
+header {
+  background: #fff8f3;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
 /* Navigation Style */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 120px;
+  padding: 50px 120px;
 }
 
 .nav-title {
@@ -49,16 +63,16 @@ nav ul li {
   margin: 0px 120px;
 }
 .banner-subtitle {
-    font-weight: 600;
-    font-size: 25px;
-    margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .banner-title {
-    font-size: 25px;
-    margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 25px;
 }
 
-.banner-para{
-    margin-bottom: 30px;
+.banner-para {
+  margin-bottom: 35px;
 }
