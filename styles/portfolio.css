@@ -206,3 +206,7 @@ main {
 hr {
   border: 1px solid #d1d1d1;
 }
+
+.resume-btn {
+  margin-top: 50px;
+}
