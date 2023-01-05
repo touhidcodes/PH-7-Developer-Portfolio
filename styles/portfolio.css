@@ -161,3 +161,48 @@ main {
 .skill-description {
   color: #757575;
 }
+
+/* Resume Section Styles */
+.resume {
+  padding: 130px 150px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 50px;
+  margin-top: 115px;
+}
+
+.resume-title-main {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.resume-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+hr {
+  border: 1px solid #d1d1d1;
+}
