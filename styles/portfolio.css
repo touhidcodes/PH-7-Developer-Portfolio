@@ -245,3 +245,10 @@ hr {
   padding: 18px 20px;
   margin-bottom: 40px;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff8f3;
+}
