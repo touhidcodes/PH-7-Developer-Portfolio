@@ -16,6 +16,10 @@
   padding: 18px 35px;
 }
 
+.btn-primary img {
+  margin-right: 5px;
+}
+
 .btn-secondary {
   color: #fd6e0a;
   background: #fff8f3;
