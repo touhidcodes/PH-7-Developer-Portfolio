@@ -167,6 +167,10 @@ main {
   padding: 130px 150px;
 }
 
+.resume-section-container {
+  width: 395px;
+}
+
 .resume-container {
   display: flex;
   justify-content: space-between;
@@ -208,5 +212,36 @@ hr {
 }
 
 .resume-btn {
-  margin-top: 50px;
+  margin-top: 70px;
+}
+
+/* Contact Section Style */
+.contact {
+  display: flex;
+  text-align: left;
+  background: #fff8f3;
+  padding: 130px 230px;
+}
+.contact .main-title {
+  margin-bottom: 20px;
+}
+.social {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.contact input {
+  padding: 18px 20px;
+  width: 461px;
+  height: 64px;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.contact textarea {
+  width: 461px;
+  height: 180px;
+  border: 0;
+  padding: 18px 20px;
+  margin-bottom: 40px;
 }
