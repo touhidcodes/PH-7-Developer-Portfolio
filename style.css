@@ -255,3 +255,32 @@ footer {
   padding: 20px;
   background-color: #fff8f3;
 }
+.hide {
+  display: none;
+}
+
+/* Media  */
+@media screen and (max-width: 576px) {
+  header {
+    background-image: none;
+    background-size: cover;
+  }
+
+  .banner,
+  nav,
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+  .nav-title {
+    text-align: center;
+  }
+  .btn-primary,
+  .btn-secondary {
+    margin: 10px 20px;
+  }
+  nav ul li {
+    margin: 0;
+  }
+}
