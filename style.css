@@ -218,13 +218,13 @@ hr {
 }
 
 /* Contact Section Style */
-.contact {
+.contact-container {
   display: flex;
   text-align: left;
   background: #fff8f3;
   padding: 130px 230px;
 }
-.contact .main-title {
+.contact-container .main-title {
   margin-bottom: 20px;
 }
 .social {
@@ -232,7 +232,7 @@ hr {
   padding: 10px;
 }
 
-.contact input {
+.contact-container input {
   padding: 18px 20px;
   width: 461px;
   height: 64px;
@@ -240,7 +240,7 @@ hr {
   border: 0;
 }
 
-.contact textarea {
+.contact-container textarea {
   width: 461px;
   height: 180px;
   border: 0;
@@ -317,6 +317,19 @@ footer {
   .resume-btn {
     margin-top: 50px;
   }
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 130px 30px;
+  }
+  .contact-container input,
+  .contact-container textarea {
+    width: 288px;
+  }
+  .contact-me p {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -357,5 +370,11 @@ footer {
   }
   .resume-btn {
     margin-top: 50px;
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 130px 90px;
   }
 }
