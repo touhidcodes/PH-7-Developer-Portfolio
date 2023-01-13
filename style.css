@@ -140,7 +140,6 @@ main {
 .skill-container {
   display: flex;
   gap: 24px;
-  /* justify-content: space-around; */
   padding-top: 50px;
 }
 
@@ -283,6 +282,41 @@ footer {
   nav ul li {
     margin: 0;
   }
+  .my-img {
+    width: 300px;
+  }
+  .my-img img {
+    width: 100%;
+  }
+  .about-info-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about {
+    margin-top: 75px;
+    padding: 130px 30px;
+  }
+  .skill-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .what-i-do,
+  .resume {
+    padding: 130px 50px;
+  }
+  .sill-img {
+    text-align: center;
+  }
+  .resume-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .resume-section-container {
+    width: auto;
+  }
+  .resume-btn {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -299,5 +333,29 @@ footer {
   }
   nav {
     align-items: center;
+  }
+  .about-info-container {
+    flex-direction: column;
+  }
+  .skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .what-i-do,
+  .resume {
+    padding: 130px 50px;
+  }
+  .resume-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .resume {
+    text-align: center;
+  }
+  .resume-section-container {
+    width: auto;
+  }
+  .resume-btn {
+    margin-top: 50px;
   }
 }
