@@ -264,7 +264,6 @@ footer {
     background-image: none;
     background-size: cover;
   }
-
   .banner,
   nav,
   nav ul {
@@ -281,6 +280,9 @@ footer {
   }
   nav ul li {
     margin: 0;
+  }
+  .banner-para {
+    text-align: center;
   }
   .my-img {
     width: 300px;
